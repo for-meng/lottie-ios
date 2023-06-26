@@ -90,7 +90,7 @@ extension LottieLoopMode: Equatable {
 /// A UIView subclass for rendering Lottie animations.
 /// All functionality is also available in a CALayer as `LottieAnimationLayer`.
 @IBDesignable
-open class LottieAnimationView: LottieAnimationViewBase {
+@objcMembers open class LottieAnimationView: LottieAnimationViewBase {
 
   // MARK: Lifecycle
 
